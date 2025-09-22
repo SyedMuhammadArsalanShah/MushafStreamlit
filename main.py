@@ -26,7 +26,7 @@ translation_choice = st.sidebar.selectbox(
 
 # ---------------- Fetch Data ----------------
 # Arabic + Recitation
-recitation_url = f"http://api.alquran.cloud/v1/surah/{selected_surah_number}/ar.abdurrehmansudais"
+recitation_url = f"http://api.alquran.cloud/v1/surah/{selected_surah_number}/ar.abdurrahmaansudais"
 recitation_response = requests.get(recitation_url).json()
 arabic_ayahs = recitation_response['data']['ayahs']
 
